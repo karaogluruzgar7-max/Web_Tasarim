@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        margin-top: 20%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px 40px;
+        border-radius: 10px;
+    }
+    .neon{
+        background: linear-gradient(180deg, #7CFF9A 0%, #0AFF7A 100%);
+        color: #001f00;
+        padding: 20px 40px;
+        border-radius: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+        box-shadow: 0 0 8px #0aff7a, 0 0 22px rgba(10,255,122,0.55), inset 0 0 6px rgba(255,255,255,0.12);
+        transition: transform 0.12s ease, box-shadow 0.12s ease;
+        display: inline-block;
+        -webkit-tap-highlight-color: transparent;
+        animation: neonPulse 1.8s ease-in-out infinite;
+    }
+    .neon:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 0 14px #0aff7a, 0 0 36px rgba(10,255,122,0.8), inset 0 0 8px rgba(255,255,255,0.15);
+    }
+    @keyframes neonPulse{
+        0%, 100%{ box-shadow: 0 0 6px #0aff7a, 0 0 18px rgba(10,255,122,0.45); }
+        50%   { box-shadow: 0 0 18px #0aff7a, 0 0 42px rgba(10,255,122,0.9); }
+    }
+</style>
+<body>
+    <center>
+    <h1>🠗🠗🠗 Ödeve gitmek için aşağıdaki butona tıklayınız 🠗🠗🠗</h1> <br>
+
+        <a href="odev.html" class="neon">ÖDEVE GİT</a>
+    </center>
+</body>
+</html>
